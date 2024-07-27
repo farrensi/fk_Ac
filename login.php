@@ -13,7 +13,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         if ($result->num_rows > 0) {
             // Login successful, redirect to dashboard
-            header("Location: admin.php");
+            header("Location: revisi.php");
             exit;
         } else {
             echo "Invalid username or password";
